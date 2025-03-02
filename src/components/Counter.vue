@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-screen flex flex-col items-center justify-center gap-5">
+  <div class="w-full flex flex-col items-center justify-center gap-5">
     <h1 class="text-3xl">Counter</h1>
     <!-- <p v-bind:class="customClass">{{ count }}</p> -->
 
