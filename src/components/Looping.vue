@@ -8,7 +8,12 @@
 </template>
 
 <script>
+import { useRoute } from "vue-router";
 export default {
+  mounted() {
+    const route = useRoute();
+    console.log(route.params);
+  },
   data() {
     return {
       arr: ["c++", "java", "python", "rust"],
